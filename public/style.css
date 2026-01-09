@@ -58,12 +58,12 @@ html, body {
   top:100px;                 
   padding-left:210px;        
   padding-right:210px;       
-  padding-top:20px;          ! Innenabstand nach oben;
-  padding-bottom:60px;       ! Innenabstand nach unten;
-  border: 1px solid #ccc;    ! Rahmenart und -farbe;
-  height:100%;               ! Höhe des Textbereiches auf 100% eingestellt;
-  overflow-y: auto;          ! Zeige Scrollbalken rechts, falls notwendig;
-  background-color:rgba(255,255,255,0); ! Hintergrund ist weiß mit 50 %iger Transparenz;
+  padding-top:20px;         
+  padding-bottom:60px;       
+  border: 1px solid #ccc;    
+  height:100%;               
+  overflow-y: auto;         
+  background-color:rgba(255,255,255,0); 
 }
  
 #newsbereich {
