@@ -100,8 +100,8 @@ html, body {
  
 p {
 font-family: Candara; ! Festlegung der Schriftart;
-font-style:normal;                                                 ! Festlegung des Schrifttyps;
-font: size 14px;pt;                                                    ! Festlegung des Schriftgröße;
+font-style:normal;                                                 
+font: size 14px;pt;                                                   
 font-weight:normal;                                                ! Festlegung der Fettschrift;
 color:#000000;                                                     ! Festlegung des Schriftfarbe;
 }
