@@ -7,4 +7,206 @@ html, body {
  background-size: cover;      
  overflow:hidden;             
  font-size:12pt;
- }
+ }html, body {
+ background-image:url(/hintergrund_neu.jpg); 
+ background-repeat:no-repeat; 
+ background-size: cover;      
+ overflow:hidden;             
+}
+ 
+#kopfbereich {
+ 
+  position:fixed;           
+  top:0;                     
+  left:0;                   
+  border: 1px solid #ff0000d3;    
+  background-color: rgb(0, 102, 255);    
+  width:100%;                
+  height:100px;              
+  z-index:2;                                
+}
+ #logobereich {
+  position:fixed;               
+  top:0;                            
+  left:0;                            
+  border: 0px solid #ccc; 
+  background-image:url("Präsentationlk+.png");
+  background-repeat:no-repeat;
+  background-size: cover;    
+  background-color:rgba(45, 146, 247, 0);    
+  width:200px;                 
+  height:100px;                
+  z-index:3;                                      
+}
+ 
+#navibereich {
+  position:fixed;            
+  top: 100px;                
+  left:0;                    
+  border: 1px solid #ccc;    
+  background-color:;      
+  width:150px;               
+  min-height:300px;          
+  z-index:2;                 
+}
+ 
+#textbereich {
+ 
+  position:fixed;           
+  left:0;                    
+  right:0;                   
+  top:100px;                 
+  padding-left:210px;        
+  padding-right:210px;       
+  padding-top:20px;          ! Innenabstand nach oben;
+  padding-bottom:60px;       ! Innenabstand nach unten;
+  border: 1px solid #ccc;    ! Rahmenart und -farbe;
+  height:100%;               ! Höhe des Textbereiches auf 100% eingestellt;
+  overflow-y: auto;          ! Zeige Scrollbalken rechts, falls notwendig;
+  background-color:rgba(255,255,255,0); ! Hintergrund ist weiß mit 50 %iger Transparenz;
+}
+ 
+#newsbereich {
+  position:fixed;            ! Position des Newsbereichs immer rechts! - FIX;
+  right:0px;                 ! Rechtsausrichtung;
+  top: 100px;                ! Position unterhalb des Kopfbereiches;
+  border: 1px solid #ccc;    ! Rahmenart und -farbe;
+  background-color:;   ! Hintergrundfarbe;
+  width:200px;               ! Breite des Newsbereichs;
+  min-height:300px;          ! Minimal-Höhe des Newsbereichs;
+  z-index:2;                 ! Newsbereich überlagert andere Bereiche;
+}
+ 
+#fussbereich {
+ 
+ position:fixed;              ! Position des Fußbereichs immer unten!;
+ bottom:0;                    ! Unten ausgerichtet!;
+ left:0;                      ! Position ganz links;
+ border: 1px solid #ccc;      ! Rahmenart und -farbe;
+ width: 100%;                 ! Breite des Fussbereichs;
+ background-color: ;      ! Hintergrundfarbe;
+ height:50px;                 ! Höhe des Fußbereichs;
+ z-index:2;                   ! Fußbereich überlagert andere Bereiche;  
+}
+ 
+/*  Höhe des Contentbereichs festlegen (wichtig!)    */                    
+.content-block {
+  padding-bottom: 1000px;
+}
+ 
+/*  ----------------------------------------- */
+/*  Schriftformatierung                       */
+/*  ----------------------------------------- */
+ 
+p {
+font-family: Candara; ! Festlegung der Schriftart;
+font-style:normal;                                                 ! Festlegung des Schrifttyps;
+font: size 14px;pt;                                                    ! Festlegung des Schriftgröße;
+font-weight:normal;                                                ! Festlegung der Fettschrift;
+color:#000000;                                                     ! Festlegung des Schriftfarbe;
+}
+.title {
+font-size:12pt;                                                    ! Festlegung des Schriftgröße;
+font-weight:bold;                                                  ! Festlegung der Fettschrift;
+}
+ 
+ 
+/*  Einbindung des DIV-Bereiches „logobereich“ mit entsprechender Positionierung (dort einbinden, wo auch die anderen DIV-Bereiche definiert wurden)     */
+ 
+ #logobereich {
+  position:fixed;               ! Position des Logos ist fest;
+  top:0;                            ! Position oben;
+  left:0;                            ! Position ganz links;
+  border: 0px solid #ccc; ! Rahmenart und -farbe;
+  background-image:url("Präsentationlk+.png");
+  background-repeat:no-repeat;
+  background-size: cover;    
+  background-color:rgba(16,78,139,0);    ! Hintergrundfarbe;
+  width:200px;                 ! Breite des Kopfbereichs;
+  height:100px;                ! Höhe des Kopfbereichs;
+  z-index:3;                      ! Logo überlagert andere Bereiche;                
+}
+ 
+/*  ----------------------------------------------------------- */
+/*  Bildformatierung für Bilder im Textbereich      */
+/*  ----------------------------------------------------------- */
+.text-image-left {
+width:3000px;  ! Größe des Bildes wird festgelegt;
+margin:-1000px;   ! Abstand zu anderen Objekten;
+float:left;        ! Ausrichtung links;
+}
+.text-image-right {
+width:200px; ! Größe des Bildes wird festgelegt;
+margin:0px;  ! Abstand zu anderen Objekten;
+float:right;     ! Ausrichtung rechts;
+}
+ 
+.header-title {
+font-family:‘Montserrat’, sans-serif;   ! Festlegung der Schriftart;
+font-size:24pt;       ! Festlegung des Schriftgröße;
+font-weight:700;      ! Festlegung des Fettschrift, hier können Sie auch bold angeben;
+text-align:center;      ! Schriftausrichtung, möglich ist left | center | right;
+}
+/*  -----------------------------------------        */
+/*  Menüformatierung                                 */
+/*  -----------------------------------------        */
+ 
+/*  Linkformatierung für das Menü übergreifend       */
+.naviformat a, button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase; ! Verwende Großbuchstaben;
+font-size:90%;              ! Festlegung des Schriftgröße;
+  font-weight:700;          ! Festlegung Fettschrift für Montserrat;
+  color: rgb(0,0,0);    ! Festlegung des Schriftfarbe (schwarz);
+  display: block;     ! Art der Anzeige als Blockelement;
+  transition: all 0.3s ease-out 0s; ! Definition Übergang von Normal zu Hover;
+  text-decoration:none;   ! Keinen Unterstrich unterhalb des Menütitels;
+    line-height: 20px;    ! Höhe der Zeile wird festgelegt;
+    padding: 5px 5px;     ! Innenabstand nach links/rechts/oben/unten;
+}
+/*  Formatierung des Hauptmenüs (mainnav)                  */
+.mainnav {
+  text-align:right;          ! Textausrichtung rechtbündig;
+  list-style-type: none;     ! es werden keine Aufzählungszeichen dargestellt;
+  margin: 20px 5px;          ! Abstände nach oben/unten und rechts/links;
+       padding: 5px 5px;          ! Innenabstand nach links/rechts/oben/unten;
+}
+ 
+.mainnav > li {
+  float:none; ! Menüpunkte untereinander, bei float:left, nebeneinander;
+}      
+/*  Formatierung des aktiven Hauptmenüpunkts */
+.mainnav > li > a.active {
+  font-weight:700;    ! Festlegung der Fettschrift, auch „bold“ möglich;
+  text-shadow: 1px 1px black, 2px 2px grey, 3px 3px   #696969; ! Text-Schatten;
+    color: rgba(90,195,208,1);  ! Festlegung des Schriftfarbe;
+}
+/*  Formatierung des Menüpunkts, wenn die Maus darüber fährt */
+.mainnav > li > a:hover {
+  font-weight:700;    ! Festlegung der Fettschrift, auch „bold“ möglich;
+  font-style:italic;  ! Festlegung der Kursiv-Schrift;
+  text-shadow: 1px 1px white, 2px 2px white, 3px 3px white; ! Text-Schatten;
+    background-color:rgba(255,255,255,0.7);   ! Hintergrundfarbe;
+}
+ 
+ 
+/* -- ----------------------------- */
+/* -- BKSD - Remove Active          */
+/* -- ----------------------------- */
+function active_remove() {
+        $('.active').each(function(index) {
+         $(this).removeClass('active');
+       });
+    }
+/* -- ------------------------------ */
+/* -- BKSD - Set Active Menü         */
+/* -- ------------------------------ */
+ function setActiveMenu(id) {
+       /* Entferne Active-Markierung */
+       active_remove();
+       /* Füge Klasse Active hinzu */
+       jQuery(id).addClass('active');
+    }
+ 
+ 
+ 
