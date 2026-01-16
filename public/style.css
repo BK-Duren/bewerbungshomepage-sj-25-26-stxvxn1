@@ -8,10 +8,11 @@ html, body {
  overflow:hidden;             
  font-size:12pt;
  }html, body {
- background-image:url(/hintergrund_neu.jpg); 
+ background-image:url(/top-view-cooked-buckwheat-porridge-260nw-2681211251.webp); 
  background-repeat:no-repeat; 
  background-size: cover;      
- overflow:hidden;             
+ overflow:hidden;
+ z-index:-5;         
 }
  
 #kopfbereich {
@@ -44,7 +45,7 @@ html, body {
   top: 100px;                
   left:0;                    
   border: 1px solid #ccc;    
-  background-color:;      
+  background-color:rgb(64, 150, 236);       
   width:150px;               
   min-height:300px;          
   z-index:2;                 
