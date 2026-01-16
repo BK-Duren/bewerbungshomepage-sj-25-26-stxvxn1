@@ -67,26 +67,26 @@ html, body {
 }
  
 #newsbereich {
-  position:fixed;            ! Position des Newsbereichs immer rechts! - FIX;
-  right:0px;                 ! Rechtsausrichtung;
-  top: 100px;                ! Position unterhalb des Kopfbereiches;
-  border: 1px solid #ccc;    ! Rahmenart und -farbe;
-  background-color:;   ! Hintergrundfarbe;
-  width:200px;               ! Breite des Newsbereichs;
-  min-height:300px;          ! Minimal-Höhe des Newsbereichs;
-  z-index:2;                 ! Newsbereich überlagert andere Bereiche;
+  position:fixed;            
+  right:0px;                 
+  top: 100px;                
+  border: 1px solid #ccc;    
+  background-color:;   
+  width:200px;               
+  min-height:300px;          
+  z-index:2;                
 }
  
 #fussbereich {
  
- position:fixed;              ! Position des Fußbereichs immer unten!;
- bottom:0;                    ! Unten ausgerichtet!;
- left:0;                      ! Position ganz links;
- border: 1px solid #ccc;      ! Rahmenart und -farbe;
- width: 100%;                 ! Breite des Fussbereichs;
- background-color: ;      ! Hintergrundfarbe;
- height:50px;                 ! Höhe des Fußbereichs;
- z-index:2;                   ! Fußbereich überlagert andere Bereiche;  
+ position:fixed;              
+ bottom:0;                    
+ left:0;                      
+ border: 1px solid #ccc;      
+ width: 100%;                
+ background-color: ;     
+ height:50px;                 
+ z-index:2;                  
 }
  
 /*  Höhe des Contentbereichs festlegen (wichtig!)    */                    
@@ -98,54 +98,52 @@ html, body {
 /*  Schriftformatierung                       */
 /*  ----------------------------------------- */
 p {
-font-family: 'Montserrat', sans-serif;  ! Festlegung der Schriftart;
-font-style:normal;                      ! Festlegung des Schrifttyps;
-font-size:11pt;                         ! Festlegung des Schriftgröße;
-font-weight:400;                        ! Festlegung der Fettschrift (400 = normal, 700 = fett);
-color:#000000;                          ! Festlegung des Schriftfarbe, hier Schwarz;
+font-family: 'Montserrat', sans-serif; 
+font-style:normal;                      
+font-size:11pt;                         
+font-weight:400;                       
+color:#000000;                          
 }
 
 .title {
-font-size:12pt;                                                    ! Festlegung des Schriftgröße;
-font-weight:bold;                                                  ! Festlegung der Fettschrift;
-}
+font-size:12pt;                                                    
+font-weight:bold;                                                 
  
  
 /*  Einbindung des DIV-Bereiches „logobereich“ mit entsprechender Positionierung (dort einbinden, wo auch die anderen DIV-Bereiche definiert wurden)     */
  
  #logobereich {
-  position:fixed;               ! Position des Logos ist fest;
-  top:0;                            ! Position oben;
-  left:0;                            ! Position ganz links;
-  border: 0px solid #ccc; ! Rahmenart und -farbe;
+  position:fixed;               
+  top:0;                            
+  left:0;                           
+  border: 0px solid #ccc; 
   background-image:url("Präsentationlk+.png");
   background-repeat:no-repeat;
   background-size: cover;    
-  background-color:rgba(16,78,139,0);    ! Hintergrundfarbe;
-  width:200px;                 ! Breite des Kopfbereichs;
-  height:100px;                ! Höhe des Kopfbereichs;
-  z-index:3;                      ! Logo überlagert andere Bereiche;                
-}
+  background-color:rgba(16,78,139,0);    
+  width:200px;                 
+  height:100px;                
+  z-index:3;                      
  
 /*  ----------------------------------------------------------- */
 /*  Bildformatierung für Bilder im Textbereich      */
 /*  ----------------------------------------------------------- */
 .text-image-left {
-width:3000px;  ! Größe des Bildes wird festgelegt;
-margin:-1000px;   ! Abstand zu anderen Objekten;
-float:left;        ! Ausrichtung links;
+width:3000px; 
+margin:-1000px;  
+float:left;        
 }
 .text-image-right {
-width:200px; ! Größe des Bildes wird festgelegt;
-margin:0px;  ! Abstand zu anderen Objekten;
-float:right;     ! Ausrichtung rechts;
+width:200px; 
+margin:0px;  
+float:right;    
 }
  
 .header-title {
-font-family:‘Montserrat’, sans-serif;   ! Festlegung der Schriftart;
-font-size:24pt;       ! Festlegung des Schriftgröße;
-font-weight:700;      ! Festlegung des Fettschrift, hier können Sie auch bold angeben;
-text-align:center;      ! Schriftausrichtung, möglich ist left | center | right;
+font-family:‘Montserrat’, sans-serif;   
+font-size:24pt;       
+font-weight:700;     
+text-align:center;      
 }
 /*  -----------------------------------------        */
 /*  Menüformatierung                                 */
@@ -154,40 +152,37 @@ text-align:center;      ! Schriftausrichtung, möglich ist left | center | right
 /*  Linkformatierung für das Menü übergreifend       */
 .naviformat a, button {
     font-family: 'Montserrat', sans-serif;
-    text-transform:uppercase; ! Verwende Großbuchstaben;
-font-size:90%;              ! Festlegung des Schriftgröße;
-  font-weight:700;          ! Festlegung Fettschrift für Montserrat;
-  color: rgb(0,0,0);    ! Festlegung des Schriftfarbe (schwarz);
-  display: block;     ! Art der Anzeige als Blockelement;
-  transition: all 0.3s ease-out 0s; ! Definition Übergang von Normal zu Hover;
-  text-decoration:none;   ! Keinen Unterstrich unterhalb des Menütitels;
-    line-height: 20px;    ! Höhe der Zeile wird festgelegt;
-    padding: 5px 5px;     ! Innenabstand nach links/rechts/oben/unten;
-}
+    text-transform:uppercase; 
+font-size:90%;              
+  font-weight:700;          
+  color: rgb(0,0,0);    
+  display: block;    
+  transition: all 0.3s ease-out 0s; 
+  text-decoration:none;   
+    line-height: 20px;    
+    padding: 5px 5px;     
 /*  Formatierung des Hauptmenüs (mainnav)                  */
 .mainnav {
-  text-align:right;          ! Textausrichtung rechtbündig;
-  list-style-type: none;     ! es werden keine Aufzählungszeichen dargestellt;
-  margin: 20px 5px;          ! Abstände nach oben/unten und rechts/links;
-       padding: 5px 5px;          ! Innenabstand nach links/rechts/oben/unten;
-}
+  text-align:right;         
+  list-style-type: none;     
+  margin: 20px 5px;          
+       padding: 5px 5px;         
  
 .mainnav > li {
   float:none; ! Menüpunkte untereinander, bei float:left, nebeneinander;
 }      
 /*  Formatierung des aktiven Hauptmenüpunkts */
 .mainnav > li > a.active {
-  font-weight:700;    ! Festlegung der Fettschrift, auch „bold“ möglich;
-  text-shadow: 1px 1px black, 2px 2px grey, 3px 3px   #696969; ! Text-Schatten;
-    color: rgba(90,195,208,1);  ! Festlegung des Schriftfarbe;
+  font-weight:700;    
+  text-shadow: 1px 1px black, 2px 2px grey, 3px 3px   #696969; 
+    color: rgba(90,195,208,1); 
 }
 /*  Formatierung des Menüpunkts, wenn die Maus darüber fährt */
 .mainnav > li > a:hover {
-  font-weight:700;    ! Festlegung der Fettschrift, auch „bold“ möglich;
-  font-style:italic;  ! Festlegung der Kursiv-Schrift;
-  text-shadow: 1px 1px white, 2px 2px white, 3px 3px white; ! Text-Schatten;
-    background-color:rgba(255,255,255,0.7);   ! Hintergrundfarbe;
-}
+  font-weight:700;    
+  font-style:italic; 
+  text-shadow: 1px 1px white, 2px 2px white, 3px 3px white; 
+    background-color:rgba(255,255,255,0.7);  
  
  
 /* -- ----------------------------- */
