@@ -97,14 +97,14 @@ html, body {
 /*  ----------------------------------------- */
 /*  Schriftformatierung                       */
 /*  ----------------------------------------- */
- 
 p {
-font-family: Candara; ! Festlegung der Schriftart;
-font-style:normal;                                                 
-font: size 14px;pt;                                                   
-font-weight:normal;                                                ! Festlegung der Fettschrift;
-color:#000000;                                                     ! Festlegung des Schriftfarbe;
+font-family: 'Montserrat', sans-serif;  ! Festlegung der Schriftart;
+font-style:normal;                      ! Festlegung des Schrifttyps;
+font-size:11pt;                         ! Festlegung des Schriftgröße;
+font-weight:400;                        ! Festlegung der Fettschrift (400 = normal, 700 = fett);
+color:#000000;                          ! Festlegung des Schriftfarbe, hier Schwarz;
 }
+
 .title {
 font-size:12pt;                                                    ! Festlegung des Schriftgröße;
 font-weight:bold;                                                  ! Festlegung der Fettschrift;
