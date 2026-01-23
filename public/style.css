@@ -2,12 +2,6 @@
 /*  Übergreifend / Body                              */
 /*  -----------------------------------------        */
 html, body {
- background-image:url("");
- background-repeat:no-repeat; 
- background-size: cover;      
- overflow:hidden;             
- font-size:12pt;
- }html, body {
  background-image:url(/top-view-cooked-buckwheat-porridge-260nw-2681211251.webp); 
  background-repeat:no-repeat; 
  background-size: cover;      
@@ -64,7 +58,7 @@ html, body {
   border: 1px solid #ccc;    
   height:100%;               
   overflow-y: auto;         
-  background-color:rgba(255,255,255,0); 
+  background-color:rgba(255,255,255,0.5); 
 }
  
 #newsbereich {
@@ -133,8 +127,8 @@ text-align: center;
 /*  Bildformatierung für Bilder im Textbereich      */
 /*  ----------------------------------------------------------- */
 .text-image-left {
-width:3000px; 
-margin:-1000px;  
+width:100px; 
+margin:5px;  
 float:left;        
 }
 .text-image-right {
